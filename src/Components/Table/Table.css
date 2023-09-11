@@ -1,0 +1,23 @@
+.tableDelete{
+    opacity: 50%;
+}
+.tableDelete:hover {
+    opacity: 100%;
+}
+.tableEdit{
+    opacity: 50%;
+}
+.tableEdit:hover{
+    opacity: 100%
+}
+.card{
+    height: 80vh;
+}
+
+@media (max-width: 767px) {
+    .createButton{
+        margin-right: 18px;
+    }
+
+    
+}

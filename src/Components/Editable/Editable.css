@@ -1,0 +1,33 @@
+.editable{
+    width: fit-content;
+}
+.editable_display{
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    cursor: default;
+}
+.editable_display:hover{
+    background-color: #ccc;
+}
+.editable_edit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.editable_edit input{
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(0, 149, 203);
+    padding: 10px;
+    font-size: 1rem;
+}
+.editable_edit_footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.editable_edit_footer svg{
+    cursor: pointer;
+}

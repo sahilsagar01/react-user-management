@@ -1,0 +1,49 @@
+.usercard{
+    padding: 30px 30px 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+}
+.usercard .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading svg{
+    cursor: pointer;
+}
+
+.usercard_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.usercard_box_title{
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.usercard_box_title svg{
+    margin-top: 2px;
+}
+
+.formSubmit{
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+}
+form input {
+    width: 70%;
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+    padding: 4px;
+    background-color: #fff;
+}
+form .inputSection {
+    display: flex;
+    gap: 10px;
+}
